@@ -1,0 +1,11 @@
+.App {
+  max-width: 1200px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-family: 'NanumSquareNeo';
+
+}

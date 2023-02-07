@@ -1,0 +1,71 @@
+/* TODOLIST */
+
+.Todolist {
+    margin-top: 20px;
+    width: 90%;
+    height: 660px;
+    background: #D7E9B9;
+    border-radius: 20px;
+    padding: 0 16px;
+
+
+
+}
+
+.list-wrapper {
+    display: flex;
+    gap: 20px
+}
+
+/* 일정을 담는 div */
+.todo-container {
+    width: 270px;
+    /* height: 150px; */
+    background: #FFFBEB;
+    border-radius: 12px;
+    padding: 12px 24px 24px 24px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+
+.todo-container:hover {
+    transform: scale(1.05);
+    /* transition-duration: 0.5s; */
+}
+
+.todo-title {
+    text-align: center;
+}
+
+
+.button-set {
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.button {
+    border: none;
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+/*  */
+.button:hover {
+    transform: scale(1.05);
+}
+
+.todo-delete-button {
+
+    background-color: #FA7070;
+}
+
+.todo-complete-button {
+
+    background-color: #93BFCF;
+}
