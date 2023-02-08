@@ -39,7 +39,7 @@ TodoList 만들기
 	수정하기 위해 onClick 에서 onSubmit 으로 수정해서 해결혔다 
 
 ```jsx
-%3Cform onClick={onSubmitHandler} className="HeaderInputBoxForm"%3E
+<form onClick={onSubmitHandler} className="HeaderInputBoxForm">
 <div className='input-ground'>
 <label className="form-label">Title</label>
 <input required type="text" name="title" placeholder='제목입력'
