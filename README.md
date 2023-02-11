@@ -7,6 +7,31 @@ TodoList 만들기
 <img width="1440" alt="스크린샷 2023-02-07 01 13 49 복사본" src="https://user-images.githubusercontent.com/95469708/217130368-ae2e7adc-2809-41a4-90ac-d22a17757c67.png">
 
 
+
+## 폴더구조
+```
+📦src
+ ┣ 📂components
+ ┃ ┣ 📂Header
+ ┃ ┃ ┣ 📜Header.css
+ ┃ ┃ ┗ 📜Header.jsx
+ ┃ ┣ 📂InputBox
+ ┃ ┃ ┣ 📜InputBox.css
+ ┃ ┃ ┗ 📜InputBox.jsx
+ ┃ ┣ 📂ToDo
+ ┃ ┃ ┣ 📜List.jsx
+ ┃ ┃ ┣ 📜Todo.css
+ ┃ ┃ ┗ 📜todo.jsx
+ ┃ ┗ 📜.DS_Store
+ ┣ 📜App.css
+ ┣ 📜App.jsx
+ ┣ 📜index.css
+ ┣ 📜index.js
+ ┣ 📜reportWebVitals.js
+ ┗ 📜setupTests.js
+```
+
+
 ## 기간
 23-02-05 ~ 23-02-06
 
